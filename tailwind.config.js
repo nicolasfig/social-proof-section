@@ -6,14 +6,14 @@ module.exports = {
       mobile: "375px",
       desktop: "1440px",
     },
+    fontWeight: {
+      regular: 400,
+      medium: 500,
+      bold: 700,
+    },
     extend: {
       fontFamily: {
         spartan: ["League Spartan", "sans-serif"],
-      },
-      fontWeight: {
-        regular: 400,
-        medium: 500,
-        bold: 700,
       },
       colors: {
         primary: {
