@@ -17,13 +17,13 @@
     <link rel="stylesheet" href="output.css" />
   </head>
   <body
-    class="font-spartan flex flex-col items-center justify-between h-screen w-screen"
+    class="font-spartan flex flex-col items-center justify-between h-screen w-screen desktop:justify-center"
   >
-    <main
-      class="w-[325px] flex flex-col items-center desktop:w-[1110px] desktop:h-screen"
-    >
-      <section class="top__container desktop:flex desktop:flex-row">
-        <section class="title mt-20 mb-12">
+    <main class="w-[325px] flex flex-col items-center desktop:w-[1110px]">
+      <section
+        class="top__container desktop:flex desktop:w-[1110px] desktop:flex-row desktop:items-center desktop:justify-between"
+      >
+        <section class="title mt-20 mb-12 desktop:w-[410px] desktop:mr-[160px]">
           <h1
             class="mb-6 text-center text-4xl leading-[2rem] font-bold text-primary-very-dark-magenta"
           >
@@ -37,7 +37,7 @@
         </section>
         <section class="ratings w-[325px] flex flex-col items-center mb-12">
           <div
-            class="rating flex flex-col w-[325px] h-[80px] mb-4 rounded-lg items-center justify-center bg-neutral-light-grayish-magenta"
+            class="rating flex flex-col w-[325px] h-[80px] mb-4 rounded-lg items-center justify-center bg-neutral-light-grayish-magenta desktop:w-[450px] desktop:h-[54px]"
           >
             <ul class="flex">
               <li>
@@ -63,7 +63,7 @@
             </p>
           </div>
           <div
-            class="rating flex flex-col w-[325px] h-[80px] mb-4 rounded-lg items-center justify-center bg-neutral-light-grayish-magenta"
+            class="rating flex flex-col w-[325px] h-[80px] mb-4 rounded-lg items-center justify-center bg-neutral-light-grayish-magenta desktop:w-[450px] desktop:h-[54px] desktop:relative"
           >
             <ul class="flex">
               <li>
@@ -89,7 +89,7 @@
             </p>
           </div>
           <div
-            class="rating flex flex-col w-[325px] h-[80px] rounded-lg items-center justify-center bg-neutral-light-grayish-magenta"
+            class="rating flex flex-col w-[325px] h-[80px] rounded-lg items-center justify-center bg-neutral-light-grayish-magenta desktop:w-[450px] desktop:h-[54px] desktop:relative"
           >
             <ul class="flex">
               <li>
@@ -121,10 +121,10 @@
         </section>
       </section>
       <section
-        class="cards w-[325px] flex flex-col items-center desktop:flex-row"
+        class="cards w-[325px] flex flex-col items-center desktop:flex-row desktop:justify-evenly desktop:w-[1110px]"
       >
         <div
-          class="card h-[250px] rounded-lg mb-4 p-8 bg-primary-very-dark-magenta"
+          class="card h-[250px] rounded-lg mb-4 p-8 bg-primary-very-dark-magenta desktop:w-[350px] desktop:h-[232px]"
         >
           <div class="header flex items-center mb-8">
             <img
@@ -146,7 +146,7 @@
           </p>
         </div>
         <div
-          class="card h-[250px] rounded-lg mb-4 p-8 bg-primary-very-dark-magenta"
+          class="card h-[250px] rounded-lg mb-4 p-8 bg-primary-very-dark-magenta desktop:w-[350px] desktop:h-[232px] desktop:relative desktop:top-5"
         >
           <div class="header flex items-center mb-8">
             <img
@@ -168,7 +168,7 @@
           </p>
         </div>
         <div
-          class="card h-[250px] rounded-lg mb-4 p-8 bg-primary-very-dark-magenta"
+          class="card h-[250px] rounded-lg mb-4 p-8 bg-primary-very-dark-magenta desktop:w-[350px] desktop:h-[232px] desktop:relative desktop:top-10"
         >
           <div class="header flex items-center mb-8">
             <img
@@ -191,7 +191,7 @@
         </div>
       </section>
     </main>
-    <footer class="text-center">
+    <footer class="text-center desktop:fixed desktop:bottom-0">
       Challenge by
       <a
         class="text-primary-very-dark-magenta"
