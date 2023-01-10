@@ -697,6 +697,10 @@ video {
     left: 3rem;
   }
 
+  .desktop\:right-12 {
+    right: 3rem;
+  }
+
   .desktop\:mr-\[160px\] {
     margin-right: 160px;
   }
