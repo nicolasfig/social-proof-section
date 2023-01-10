@@ -709,6 +709,10 @@ video {
     height: 232px;
   }
 
+  .desktop\:h-screen {
+    height: 100vh;
+  }
+
   .desktop\:w-\[1110px\] {
     width: 1110px;
   }
