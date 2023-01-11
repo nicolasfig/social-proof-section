@@ -669,8 +669,8 @@ video {
     position: relative;
   }
 
-  .desktop\:right-12 {
-    right: 3rem;
+  .desktop\:left-0 {
+    left: 0px;
   }
 
   .desktop\:top-5 {
@@ -685,18 +685,6 @@ video {
     bottom: 0px;
   }
 
-  .desktop\:right-24 {
-    right: 6rem;
-  }
-
-  .desktop\:left-0 {
-    left: 0px;
-  }
-
-  .desktop\:mr-\[160px\] {
-    margin-right: 160px;
-  }
-
   .desktop\:flex {
     display: flex;
   }
@@ -707,10 +695,6 @@ video {
 
   .desktop\:h-\[232px\] {
     height: 232px;
-  }
-
-  .desktop\:h-screen {
-    height: 100vh;
   }
 
   .desktop\:w-\[1110px\] {
@@ -745,16 +729,16 @@ video {
     justify-content: space-between;
   }
 
-  .desktop\:justify-around {
-    justify-content: space-around;
-  }
-
   .desktop\:justify-evenly {
     justify-content: space-evenly;
   }
 
-  .desktop\:justify-items-stretch {
-    justify-items: stretch;
+  .desktop\:pr-\[200px\] {
+    padding-right: 200px;
+  }
+
+  .desktop\:pr-\[100px\] {
+    padding-right: 100px;
   }
 
   .desktop\:text-left {
