@@ -661,16 +661,8 @@ video {
     position: fixed;
   }
 
-  .desktop\:absolute {
-    position: absolute;
-  }
-
   .desktop\:relative {
     position: relative;
-  }
-
-  .desktop\:left-0 {
-    left: 0px;
   }
 
   .desktop\:top-5 {
@@ -725,20 +717,8 @@ video {
     justify-content: center;
   }
 
-  .desktop\:justify-between {
-    justify-content: space-between;
-  }
-
   .desktop\:justify-evenly {
     justify-content: space-evenly;
-  }
-
-  .desktop\:pr-\[200px\] {
-    padding-right: 200px;
-  }
-
-  .desktop\:pr-\[100px\] {
-    padding-right: 100px;
   }
 
   .desktop\:text-left {
