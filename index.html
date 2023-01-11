@@ -19,11 +19,13 @@
   <body
     class="font-spartan flex flex-col items-center justify-between h-screen w-screen desktop:justify-center"
   >
-    <main class="w-[325px] flex flex-col items-center">
+    <main class="w-[325px] flex flex-col items-center desktop:w-[1110px]">
       <section
-        class="top__container desktop:w-[1110px] desktop:flex desktop:flex-row desktop:items-center desktop:justify-evenly"
+        class="top__container desktop:w-[1110px] desktop:flex desktop:flex-row desktop:items-center desktop:justify-between desktop:border-2 desktop:border-blue-500 desktop:h-auto"
       >
-        <section class="title mt-20 mb-12 desktop:w-[410px]">
+        <section
+          class="title mt-20 mb-12 desktop:w-[410px] desktop:border-2 desktop:border-green-500"
+        >
           <h1
             class="mb-6 text-center text-4xl leading-[2rem] font-bold text-primary-very-dark-magenta desktop:text-left"
           >
@@ -37,9 +39,11 @@
             services.
           </p>
         </section>
-        <section class="ratings w-[325px] flex flex-col items-center mb-12">
+        <section
+          class="ratings w-[325px] flex flex-col items-center mb-12 desktop:w-[450px] desktop:border-2 desktop:border-green-500"
+        >
           <div
-            class="rating flex flex-col w-[325px] h-[80px] mb-4 rounded-lg items-center justify-center bg-neutral-light-grayish-magenta desktop:w-[450px] desktop:h-[54px]"
+            class="rating flex flex-col w-[325px] h-[80px] mb-4 rounded-lg items-center justify-center bg-neutral-light-grayish-magenta desktop:w-[450px] desktop:h-[54px] desktop:relative desktop:right-24"
           >
             <ul class="flex">
               <li>
@@ -65,7 +69,7 @@
             </p>
           </div>
           <div
-            class="rating flex flex-col w-[325px] h-[80px] mb-4 rounded-lg items-center justify-center bg-neutral-light-grayish-magenta desktop:w-[450px] desktop:h-[54px]"
+            class="rating flex flex-col w-[325px] h-[80px] mb-4 rounded-lg items-center justify-center bg-neutral-light-grayish-magenta desktop:w-[450px] desktop:h-[54px] desktop:relative desktop:right-12"
           >
             <ul class="flex">
               <li>
@@ -123,7 +127,7 @@
         </section>
       </section>
       <section
-        class="cards w-[325px] desktop:w-[1110px] flex flex-col items-center desktop:flex-row desktop:justify-evenly"
+        class="cards w-[325px] desktop:w-[1110px] flex flex-col items-center desktop:flex-row desktop:justify-between"
       >
         <div
           class="card h-[250px] rounded-lg mb-4 p-8 bg-primary-very-dark-magenta desktop:w-[350px] desktop:h-[232px]"
