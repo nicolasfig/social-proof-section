@@ -537,6 +537,10 @@ video {
   margin-right: 1.25rem;
 }
 
+.mr-4 {
+  margin-right: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -699,6 +703,10 @@ video {
 
   .desktop\:mb-16 {
     margin-bottom: 4rem;
+  }
+
+  .desktop\:mr-4 {
+    margin-right: 1rem;
   }
 
   .desktop\:flex {
