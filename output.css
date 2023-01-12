@@ -597,20 +597,6 @@ video {
   border-radius: 9999px;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
-.border-rose-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(244 63 94 / var(--tw-border-opacity));
-}
-
-.border-blue-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(59 130 246 / var(--tw-border-opacity));
-}
-
 .bg-neutral-light-grayish-magenta {
   --tw-bg-opacity: 1;
   background-color: hsl(300 24% 96% / var(--tw-bg-opacity));
@@ -619,6 +605,14 @@ video {
 .bg-primary-very-dark-magenta {
   --tw-bg-opacity: 1;
   background-color: hsl(300 43% 22% / var(--tw-bg-opacity));
+}
+
+.bg-mobile {
+  background-image: url(./images/bg-pattern-top-mobile.svg), url(./images/bg-pattern-bottom-mobile.svg);
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .p-8 {
@@ -679,6 +673,14 @@ video {
     position: relative;
   }
 
+  .desktop\:right-24 {
+    right: 6rem;
+  }
+
+  .desktop\:right-12 {
+    right: 3rem;
+  }
+
   .desktop\:top-5 {
     top: 1.25rem;
   }
@@ -691,24 +693,21 @@ video {
     bottom: 0px;
   }
 
-  .desktop\:right-24 {
-    right: 6rem;
+  .desktop\:m-0 {
+    margin: 0px;
   }
 
-  .desktop\:right-12 {
-    right: 3rem;
-  }
-
-  .desktop\:mr-1 {
-    margin-right: 0.25rem;
-  }
-
-  .desktop\:mr-4 {
-    margin-right: 1rem;
+  .desktop\:mb-16 {
+    margin-bottom: 4rem;
   }
 
   .desktop\:flex {
     display: flex;
+  }
+
+  .desktop\:h-max {
+    height: -moz-max-content;
+    height: max-content;
   }
 
   .desktop\:h-\[54px\] {
@@ -719,16 +718,16 @@ video {
     height: 232px;
   }
 
-  .desktop\:h-auto {
-    height: auto;
-  }
-
   .desktop\:w-\[1110px\] {
     width: 1110px;
   }
 
   .desktop\:w-\[410px\] {
     width: 410px;
+  }
+
+  .desktop\:w-\[325px\] {
+    width: 325px;
   }
 
   .desktop\:w-\[450px\] {
@@ -755,30 +754,20 @@ video {
     justify-content: space-between;
   }
 
-  .desktop\:justify-evenly {
-    justify-content: space-evenly;
+  .desktop\:bg-desktop {
+    background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
   }
 
-  .desktop\:border-2 {
-    border-width: 2px;
-  }
-
-  .desktop\:border-rose-500 {
-    --tw-border-opacity: 1;
-    border-color: rgb(244 63 94 / var(--tw-border-opacity));
-  }
-
-  .desktop\:border-blue-500 {
-    --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity));
-  }
-
-  .desktop\:border-green-500 {
-    --tw-border-opacity: 1;
-    border-color: rgb(34 197 94 / var(--tw-border-opacity));
+  .desktop\:bg-pos {
+    background-position: left top, right bottom;
   }
 
   .desktop\:text-left {
     text-align: left;
+  }
+
+  .desktop\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
